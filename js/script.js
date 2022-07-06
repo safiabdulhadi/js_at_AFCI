@@ -1,3 +1,4 @@
+"use strict";
 // var a = ["ali", "khan", "nawid", "abdul"];
 // var b =a.slice(-3);
 // console.log(b)
@@ -74,14 +75,68 @@
 // }else{
 //     console.log('out')
 // }
-let num = 15;
+// let num = 15;
 
-if(num % 15 ===0 ){
-    console.log('fizz  buzz')
-} else if (num % 5=== 0){
-    console.log('buzz')
-} else if (num % 3=== 0){
-    console.log('fizz')
-} else {
-    console.log(num) 
+// if(num % 15 ===0 ){
+//     console.log('fizz  buzz')
+// } else if (num % 5=== 0){
+//     console.log('buzz')
+// } else if (num % 3=== 0){
+//     console.log('fizz')
+// } else {
+//     console.log(num) 
+// }
+
+// for(let i = 1; i < 21; i++){
+//     if(i % 15 ===0 ){
+//         console.log('fizz  buzz')
+//     } else if (i % 5=== 0){
+//         console.log('buzz')
+//     } else if (i % 3=== 0){
+//         console.log('fizz')
+//     } else {
+//         console.log(i) 
+//     }
+    
+// }
+
+// loop for + if
+
+// let books = ["ahamd", "khan", "ali", "karim"];
+// for(let i = 0; i < books.length; i++){
+//   if(books[i] === "khan"){
+//     console.log(books[i]);
+//   }
+// }
+
+
+
+
+//  objects
+
+// const user = {
+//     fName: 'ali',
+//     lName: 'khan',
+//     pets: 'dog'
+// }
+
+
+// console.log(user.fName, user.lName);
+
+// console.log(window);
+// window.alert()
+
+
+const gas = [20,10,30,40,50];
+const food = [20,60,50,40,30];
+
+function calculateTotal(arr){
+let total = 0;
+for(let i = 0; i < arr.length; i++){
+    console.log(arr[i])
+    total += arr[i];
 }
+return total;
+}
+
+console.log(calculateTotal(gas));
