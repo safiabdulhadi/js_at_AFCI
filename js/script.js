@@ -127,16 +127,66 @@
 // window.alert()
 
 
-const gas = [20,10,30,40,50];
-const food = [20,60,50,40,30];
+// const gas = [20,10,30,40,50];
+// const food = [20,60,50,40,30];
 
-function calculateTotal(arr){
-let total = 0;
-for(let i = 0; i < arr.length; i++){
-    console.log(arr[i])
-    total += arr[i];
-}
-return total;
-}
+// function calculateTotal(arr){
+// let total = 0;
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i])
+//     total += arr[i];
+// }
+// return total;
+// }
 
-console.log(calculateTotal(gas));
+// console.log(calculateTotal(gas));
+
+
+
+// Array inside of array a is objects
+// const users = [
+//     {
+//         username: 'admin',
+//         followers: 29,
+//         is_folloowed: false
+//     },
+//     {
+//         username: 'ahamd',
+//         followers: 25,
+//         is_folloowed: true
+//     },
+//     {
+//         username: 'admin',
+//         followers: 35,
+//         is_folloowed: false
+//     },
+    
+// ]
+// console.log(users[1]);
+// console.log(users[2].followers);
+
+// for(let i = 0; i < users.length; i++){
+//     if(users[i].is_folloowed === true){
+//         // console.log("hi there " + users[i].username + " " + "welcome" );
+//         // console.log("hi there ");
+//     }
+// }
+
+// for(let i = 0; i < users.length; i++){
+//     // console.log(users[i])
+//     console.log(users[i].username + " ")// all 3 username outputs
+// }
+
+
+
+// let stopLight = 'yellow';
+
+// if(stopLight === 'red'){
+//     console.log("Stop!");
+// } else if(stopLight === 'yellow'){
+//     console.log('Slow down');
+// } else if(stopLight === 'green'){
+//     console.log('Go!')
+// } else{
+//     console.log('Caution, unknown!');
+// }
