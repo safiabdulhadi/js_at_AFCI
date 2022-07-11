@@ -97,7 +97,7 @@
 //     } else {
 //         console.log(i) 
 //     }
-    
+
 // }
 
 // loop for + if
@@ -160,7 +160,7 @@
 //         followers: 35,
 //         is_folloowed: false
 //     },
-    
+
 // ]
 // console.log(users[1]);
 // console.log(users[2].followers);
@@ -190,3 +190,24 @@
 // } else{
 //     console.log('Caution, unknown!');
 // }
+
+// function change() {
+//     let txt = document.getElementById('txt')
+//     txt.innerHTML = " Welcome to js";
+//     txt.style.backgroundColor = "green";
+// }
+// setTimeout(change, 2000);
+
+let p = new Promise((resolve, reject) => {
+    let a = 1 + 1;
+    if (a === 2) {
+        resolve("success !");
+    } else {
+        reject("failed !");
+    }
+})
+p.then((message) => {
+    console.log(`this is in the then ${message}`)
+}).catch((error) => {
+    console.log(`this is in the catch error ${error}`)
+})
