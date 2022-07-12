@@ -282,3 +282,13 @@
 // getDatas();
 // }
 // start();
+
+// const promesse1 = new Promise((resolve, reject)=>{
+//     const aleatoire = Math.trunc(Math.random()* 10) + 1;
+//     if(aleatoire <=5){
+//         resolve("Entre 5 & 1 !")
+//     }else{
+//         reject("Entre  et 10!")
+//     }
+// })
+// console.log(promesse1);
