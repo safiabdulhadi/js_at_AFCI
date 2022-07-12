@@ -198,16 +198,87 @@
 // }
 // setTimeout(change, 2000);
 
-let p = new Promise((resolve, reject) => {
-    let a = 1 + 1;
-    if (a === 2) {
-        resolve("success !");
-    } else {
-        reject("failed !");
-    }
-})
-p.then((message) => {
-    console.log(`this is in the then ${message}`)
-}).catch((error) => {
-    console.log(`this is in the catch error ${error}`)
-})
+// let p = new Promise((resolve, reject) => {
+//     let a = 1 + 2;
+//     if (a === 2) {
+//         resolve("success !");
+//     } else {
+//         reject("failed !");
+//     }
+// })
+// p.then((message) => {
+//     console.log(`this is in the then ${message}`)
+// }).catch((error) => {
+//     console.log(`this is in the catch ${error}`)
+// })
+
+// let text = { "employees" :[
+//     {'firstName': 'John', 'lastName': 'Doe', },
+//     {'firstName': 'ali', 'lastName': 'khan'},
+//     {'firstName': 'abdouhadi', 'lastname': 'safi'}
+// ]
+// }
+// console.log(text.employees[0].firstName + " " + text.employees[0].lastName);
+// console.log(text.employees[1].firstName + " " + text.employees[1].lastName);
+// console.log(text.employees[2].firstName + " " + text.employees[2].lastName);
+
+
+// let text = { "employees" :[
+//     {'firstName': 'John', 'lastName': 'Doe', },
+//     {'firstName': 'ali', 'lastName': 'khan'},
+//     {'firstName': 'abdouhadi', 'lastname': 'safi'}
+// ]
+// }
+// console.log(text.employees[0].firstName + " " + text.employees[0].lastName);
+// console.log(text.employees[1].firstName + " " + text.employees[1].lastName);
+// console.log(text.employees[2].firstName + " " + text.employees[2].lastName);
+
+
+// const datas =[
+//     {name: 'abdulhadi',profresstion:'web developer'},
+//     {name: 'ali khan',profresstion:'web developer'}
+// ];
+// // let output = "";
+// function getDatas(){
+
+// setTimeout(()=> {
+//     let output = "";
+// datas.forEach((data,index)=>{
+//     // output += `<li> ${index} </li>`;
+//     output += `<ul><li> ${data.name} </li></ul>`;
+//     // let output = "";
+// })
+// document.body.innerHTML = output;
+// console.log(output);
+// },1000);
+
+// }
+
+// function createdata(newdata){
+
+//     return new Promise((resolve,reject)=>{
+
+//         setTimeout(()=>{
+//             datas.push(newdata);
+//             let error = false;
+//             if(!error){
+//                 resolve();
+//             }else{
+//                 reject("kuchsahi nhi hai..");
+//             }
+//                 },2000);
+//     });
+
+// }
+
+// getDatas();
+// createdata({name: 'khan',profresstion:'web developer'}).then(getDatas).catch((error)=>{
+//     console.log(error);
+// });
+
+// Async & Await
+// async function start(){
+// await createdata({name: 'khan',profresstion:'web developer'});
+// getDatas();
+// }
+// start();
