@@ -27,11 +27,11 @@
 // user(["yahoo baba", 25, "Lille"]);
 
 
-function user(){
- return ["yahoo baba", 25, "Lille"];
-}
+// function user() {
+//     return ["yahoo baba", 25, "Lille"];
+// }
 
-let [name, age = 28, city] = user();
-console.log(name);
-console.log(age);
-console.log(city);
+// let [name, age = 28, city] = user();
+// console.log(name);
+// console.log(age);
+// console.log(city);

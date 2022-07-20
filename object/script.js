@@ -36,3 +36,75 @@
 // for(let key in obj1){
 //     console.log(key + " " + obj1[key])
 // }
+
+
+
+// var fees = {};
+// fees['Rahul'] = 100;
+// fees['Sumit'] = 200;
+// fees['Rohan'] = 300;
+// console.log(fees.Rahul + " " + fees.Sumit + " " + fees.Rohan);
+
+// var fees = {};
+// fees.Rahul = 200;
+// fees.Sumit = 400;
+// fees.Rohan = 100;
+// console.log(fees['Rahul'] + " " + fees['Sumit'] + " " + fees['Rohan']);
+// console.log(fees.Rahul + " " + fees.Sumit + " " + fees.Rohan);
+
+// var fees = {
+// Rahul : 200,
+// Sumit : 400,
+// Rohan : 100
+// }
+// console.log(fees);
+// console.log(fees.Rahul + " " + fees.Sumit + " " + fees.Rohan);
+
+
+// var fees = {};
+// fees['Rahul'] = 100;
+// fees['total'] = function(){
+//     return (100 + 200)
+// }
+// console.log(fees.total());
+
+// var fees = {
+//     Rahul: 100, 
+//     Sumit: 300,
+//     Rohan: 200
+// }
+// console.log(fees);
+// console.log(fees.Rahul);
+// console.log(fees.Rahul);
+
+
+// let user = {
+//     name: "John",
+//     age: 30,
+//     sayHi(){
+//         console.log(this.name);
+//     }
+// };
+// user.sayHi();
+
+// let user2 = {
+//     name: "John",
+//     age: 25,
+//     fun: function(){
+//         console.log(this.age)
+//     }
+// }
+// console.log(user2.age);
+// console.log(user2.fun());
+
+
+
+// let user = {
+//     name: "John",
+//     age: 30
+// };
+
+// user.sayHi = function(){
+//     console.log(this.name + " " + this.age);
+// }
+// user.sayHi();
