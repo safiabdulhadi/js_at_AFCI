@@ -108,3 +108,29 @@
 //     console.log(this.name + " " + this.age);
 // }
 // user.sayHi();
+
+const france ={
+    name: 'France',
+    population: 67,
+    capital: 'paris',
+    languages:['french', 'English','Arabic']
+}
+
+for(const country in france){ 
+    // console.log( country + " "  + france[country]);
+    // console.log( country,france[country]);
+    // console.log(`${country} ${france[country]}`);
+}
+
+// Object constructor
+// console.log(france)
+const arrFromObj = Object.entries(france);
+console.log(arrFromObj);
+// arrFromObj.forEach(element => {
+//     console.log(element);
+// })
+// for(const [key, value] of Object.entries(france)){
+//     console.log(key, value)
+// }
+
+console.log(Object.keys(france));

@@ -27,3 +27,13 @@
 
 // console.log(obj3);
 // console.log(obj4.fullname());
+
+
+function User(name){
+this.name = name;
+this.isAdimin = false;
+}
+let user = new User("Jack");
+
+console.log(user.name);
+console.log(user.isAdimin);
