@@ -109,23 +109,23 @@
 // }
 // user.sayHi();
 
-const france ={
-    name: 'France',
-    population: 67,
-    capital: 'paris',
-    languages:['french', 'English','Arabic']
-}
+// const france ={
+//     name: 'France',
+//     population: 67,
+//     capital: 'paris',
+//     languages:['french', 'English','Arabic']
+// }
 
-for(const country in france){ 
+// for(const country in france){ 
     // console.log( country + " "  + france[country]);
     // console.log( country,france[country]);
     // console.log(`${country} ${france[country]}`);
-}
+// }
 
 // Object constructor
 // console.log(france)
-const arrFromObj = Object.entries(france);
-console.log(arrFromObj);
+// const arrFromObj = Object.entries(france);
+// console.log(arrFromObj);
 // arrFromObj.forEach(element => {
 //     console.log(element);
 // })
@@ -133,4 +133,19 @@ console.log(arrFromObj);
 //     console.log(key, value)
 // }
 
-console.log(Object.keys(france));
+// console.log(Object.keys(france));
+
+
+
+
+// let user = {
+//     prenom: 'John',
+//     sayHi(){
+//         console.log(`Hello ${this.prenom}`);
+//     }
+// }
+// // user.sayHi();
+
+// let newFunction = user.sayHi.bind(user);
+// newFunction();
+
