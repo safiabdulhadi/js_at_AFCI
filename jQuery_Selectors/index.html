@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #box{
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+<h1>jQuery Selecotrs</h1>
+
+<div id="box" class="test">
+    <h2>Test Box 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, ratione.</p>
+</div>
+
+<ul id="list">
+    <li>Orange</li>
+    <li class="test">Banana</li>
+    <li>Grapes</li>
+    <li class="test">Apple</li>
+    <li>Guava</li>
+</ul>
+<script src="jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // $("#list").css("color", "red");
+        // $("#list li").css("border", "2px solid red");
+        // $(".test").css("border", "2px solid red");
+        // $("*").css("border", "2px solid red");
+        // $("li:first").css("border", "2px solid red");
+        // $("li:first-child").css("border", "2px solid red");
+        // $("li:last-child").css("border", "2px solid red");
+        // $("ul li:eq(2)").css("border", "2px solid red");
+        $("ul li:eq(0)").css("border", "2px solid red");
+    })
+</script>
+</body>
+</html>

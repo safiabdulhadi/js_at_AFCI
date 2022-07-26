@@ -292,3 +292,10 @@
 //     }
 // })
 // console.log(promesse1);
+
+
+const el = document.getElementById("intro");
+// let content = el.innerHTML;
+// console.log(content);
+
+el.innerHTML = "<h1> This is h1 element </h1>";
