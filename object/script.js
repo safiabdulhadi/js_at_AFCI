@@ -149,3 +149,18 @@
 // let newFunction = user.sayHi.bind(user);
 // newFunction();
 
+
+const student = {
+    fullName: "Abdulhadi Safi",
+    city: "Lille",
+    isAdult: true,
+    GoodAt: ["math", "html", "css", "javascript"]
+};
+// console.log(student);
+
+for(let prop in student){
+    // console.log(`${prop} `) //student keys or properties in pro
+    // console.log(`${prop} ${student[prop]}`)
+    console.log(` ${student[prop]}`)
+}
+
