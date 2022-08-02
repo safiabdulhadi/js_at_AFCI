@@ -299,3 +299,32 @@
 // console.log(content);
 
 // el.innerHTML = "<h1> This is h1 element </h1>";
+
+// let values = document.getElementById("txt1").value = 16;
+
+// console.log(values);
+// document.body.style.background = 'gray';
+// setTimeout(() => document.body.style.background = '', 3000); // return back
+// const button = document.getElementById("button");
+
+
+
+
+
+function addNum(n1, n2) {
+    return parseInt(n1) + parseInt(n2);
+}
+
+
+button.addEventListener("click", addNumAction)
+
+function addNumAction() {
+    var n1 = document.getElementById("num1").value;
+    var n2 = document.getElementById("num2").value;
+
+    var sum = addNum(n1, n2);
+    // window.alert("" + sum);
+    // alert(sum);
+    console.log(sum);
+
+}
