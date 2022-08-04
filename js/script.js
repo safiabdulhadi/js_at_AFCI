@@ -311,20 +311,35 @@
 
 
 
-function addNum(n1, n2) {
-    return parseInt(n1) + parseInt(n2);
-}
+// function addNum(n1, n2) {
+//     return parseInt(n1) + parseInt(n2);
+// }
 
 
-button.addEventListener("click", addNumAction)
+// button.addEventListener("click", addNumAction)
 
-function addNumAction() {
-    var n1 = document.getElementById("num1").value;
-    var n2 = document.getElementById("num2").value;
+// function addNumAction() {
+//     var n1 = document.getElementById("num1").value;
+//     var n2 = document.getElementById("num2").value;
 
-    var sum = addNum(n1, n2);
-    // window.alert("" + sum);
-    // alert(sum);
-    console.log(sum);
+//     var sum = addNum(n1, n2);
+// window.alert("" + sum);
+// alert(sum);
+//     console.log(sum);
 
-}
+// }
+
+// const box = document.querySelector('.box');
+// const btn = document.querySelector('.btn');
+
+// let count = 0;
+// btn.addEventListener('click', () => {
+//     box.classList.toggle("box2");
+//     count++;
+//     console.log(count);
+// });
+
+// to open new window 
+// btn.addEventListener("click", ()=>{
+//     window.open("https://www.johnsmilga.com/");
+// });
